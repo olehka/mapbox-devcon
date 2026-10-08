@@ -37,6 +37,8 @@ android {
 }
 
 dependencies {
+    implementation("com.mapbox.maps:android-ndk27:11.32.0")
+    implementation("com.mapbox.extension:maps-compose-ndk27:11.32.0")
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
